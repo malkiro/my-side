@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+}
+
+body{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 5.695rem;
+    padding-top: 200px;
+    color: #66BFBF;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    margin: 20px 0;
+    color: #66BFBF;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+    color: #11999E;
+    font-weight: bold;
+}
+
+hr{
+    width: 4%;
+    margin: 100px auto;
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+}
+
+p{
+    line-height: 2;
+}
+
+
+/* ------------------------------------------------ TOP CONTAINER ------------------------------------------ */
+
+.pro{
+    text-decoration: underline;
+}
+
+.top-container{
+    background-color: #E4F9F5;
+    position: relative;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    bottom: 250px;
+    left: 300px;
+}   
+
+
+/* ------------------------------------------------ MIDDLE CONTAINER ------------------------------------------ */
+
+.middle-container{
+    margin-top: 100px;
+}
+
+.profile img{
+    border-radius: 100%;
+    margin-bottom: 40px;
+}
+
+.profile p{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    line-height: 2;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+
+.skill-row img{
+    width:25%;
+    border-radius: 100%;
+}
+
+.computer-img{
+    float: left;
+    margin-right: 20px;
+}
+
+.chilly-img{
+    float: right;
+    margin-left: 20px;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.contact{
+    margin-bottom: 40px;
+}
+
+.contact p{
+    width: 40%;
+    margin: 20px auto;
+}
+
+.btn{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.btn:hover{
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+}
+
+
+
+/* ------------------------------------------------ MIDDLE CONTAINER ------------------------------------------ */
+
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px;
+}
+
+.bottom-container a{
+    text-decoration: none;
+    color: #11999E;
+    margin: 10px;
+}
+
+.bottom-container p{
+    color: #ffffff;
+    font-size: .75rem;
+    margin-top: 30px;
+}
